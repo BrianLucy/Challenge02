@@ -19,3 +19,9 @@ WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
+
+
+
+wireframe diagram for challenge 02
+![challenge 02 wireframe](https://user-images.githubusercontent.com/116689598/210032560-047e28e2-7778-4b1f-ace9-3320bc13d44b.JPG)
+
