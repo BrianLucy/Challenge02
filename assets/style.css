@@ -117,6 +117,11 @@ Responsive Image gallery Style rules
   border-radius: 5px;
 }
 
+#image-1 {
+ width: 700px;
+ height: 900px
+}
+
 .overlay {
   position: absolute;
   width: 100%;
