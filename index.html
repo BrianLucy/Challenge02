@@ -9,46 +9,66 @@
   <link rel="stylesheet" href="assets\style.css" />
 </head>
 <body>
-  <!--header-->
-  <a name="home"></a>
-<header><h1><em>Portfolio</em></h1></header>
-<!--navbar-->
-<ul class="navbar">
-  <li><a href="#home">Home</a></li>
-  <li><a href="#about">About</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#applinks">Links to Developed Applications</a></li>
-</ul>
-<!--about me section-->
-    <section class="bio-1">
-      <a name="about"></a>
-      <h2>Brian Lucy</h2>
-      <img src="./assets/images/WIN_20221213_19_35_09_Pro.jpg" width="200" HEIGHT="200" alt="self picture">
-      <p><em>Teacher, Scientist, Engineer, Outdoor enthusiast, HomeBrewer</em></p><br>
-      <p><em> 30 years teaching middle school and High school science and engineering, looking for next chapter</em></p>
-      <a href="#home">Back to home/top of page</a>
-    </section>
-<!--contact section-->
-    <section class="contact-info"><h2>Contact Info</h2>
-      <a name="contact"></a>
-      <img src="assets\images\IMG_0592.jpg">
-      <ul>
-        <li id="email"><strong>email:</strong><a href="mailto:brianlucy1@gmail.com">brianlucy1@gmail.com</a></li><br>
-      <li id="github"><strong>Github:</strong><a href="#">coming soon</a></li><br>
-      <li id="portfolio"><strong>Portfolio:</strong><a href="#">coming soon</a></li><br>
-      </ul>
-      <a href="#home">Back to home/top of page</a>
-    </section>
-<!--links to developed apps section-->
-    <section class="app-links"><h2>Links to Applications Developed</h2><br>
-    <a name="applinks"></a>
-      <div class="app-links-1">
-      <div><em>app#1</em><img src="assets\images\smp summit.JPG" width="200" height="200" border="2px" alt="stone mountian summit"><br><sTRONG>DETILS:</sTRONG><br><p>blahblahblah</p></div><br><br><br>
-      <div><em>app#2</em><img src="assets\images\smp carallon.JPG" width="200" height="200" border="2px" alt="stone mountain carralon"><br><strong>DETAILS:</strong><BR><p>this is where a description and detils of the app goes</p></div><br><br><br>
-      <div><em>app#3</em><img src="assets\images\japanese garden.JPG" width="200" height="200" border="2px" alt="japanese gardens"><br><strong>DETAILS:</strong><BR><p>stuff stuff stuff stuff</p></div><br><br><br>
-        <a href="#home">Back to home/top of page</a> 
-    </section>
+    <!--header-->
+<header class="header">PORTFOLIO<a id="home"></a></header>
+  
 
-  </body>
+  <!--top navigation bar-->
+<div class="topnav">    
+    <a class="home" href="#home">HOME</a>
+    <a class="about" href="#about">ABOUT</a>
+    <a class="contact" href="#contact">CONTACT</a>
+    <a class="dev-app-links" href="#dev-app-links">LINKS TO DEVELOPED APPLIACTIONS</a>
+    
+</div>
 
-</html>
+<!--about me setion-->
+<div class="bio-1">
+<a id="about"></a>
+<h1 class="bio-1-heading"><span>BrianLucy</span><br><br>About me</h1><br>
+<img src="assets\images\WIN_20221213_19_35_09_Pro.jpg" width="250px" alt="self picture"><br>
+<p><em>Teacher, Scientist, Engineer, Outdoor Enthusiast, Homebrewer</em></p><br>
+<p><em>After teaching for 30 years, I'm looking for the next adventure</em></p><br>
+<a href="#home">HOME</a>
+</div>
+
+<!--responsive gallery-->
+<a id="dev-app-links"></a>
+    <div class="container">
+  <h2 class="heading-text"><span>Brian Lucy</span><br><br>  Gallery: Developed Applications </h2>
+  <ul class="image-gallery">
+    <li>
+      <a href="#application-1-details"><img src="assets\images\smp summit.JPG" alt="stone mountian summit with hiker shadow" />
+      <div class="overlay"><span>stone mountain summit</span></div></a>
+    Application #1</li>
+    <!-- other items here -->
+    <li>
+        <a href="#application-2-details"><img src="assets\images\smp carallon.JPG" alt="stone mountian summit with hiker shadow" />
+        <div class="overlay"><span>stone mountain carillon</span></div></a>
+      Application #2</li>
+      <li>
+        <a href="#application-3-details"><img src="assets\images\japanese garden.JPG" alt="stone mountian summit with hiker shadow" />
+        <div class="overlay"><span>Japanese gardens</span></div></a>
+      Aplication #3</li>
+  </ul>
+  <a class="home" href="#home">HOME</a>
+</div>
+
+<!--details about the applications-->
+<div class="application-details">
+<div class="application-1-details"><a id="application-1-details"></a>Application 1 Details<br><a class="home" href="#home">HOME</a><br><a class="dev-app-links" href="#dev-app-links">BACK TO APPLICATIONS GALLERY</a></div><br>
+<div class="application-2-details"><a id="application-2-details"></a>Application 2 Details<br><a class="home" href="#home">HOME</a><br><a class="dev-app-links" href="#dev-app-links">BACK TO APPLICATIONS GALLERY</a></div><br>
+<div class="application-3-details"><a id="application-3-details"></a>Application 3 Details<br><a class="home" href="#home">HOME</a><br><a class="dev-app-links" href="#dev-app-links">BACK TO APPLICATIONS GALLERY</a></div><br>
+</div>
+
+<!--contact me section-->
+<footer class="contact-info"><h2 class="contact-info-heading"><span>BrianLucy</span><br><br>Contact Info</h2>
+  <a name="contact"></a><br>
+  <ul>
+    <li id="email"><strong>email:</strong><a href="mailto:brianlucy1@gmail.com">brianlucy1@gmail.com</a></li><br>
+    <li id="github"><strong>Github:</strong><a href="#">coming soon</a></li><br>
+    <li id="portfolio"><strong>Portfolio:</strong><a href="#">coming soon</a></li><br>
+  </ul><br>
+  <a class="home" href="#home">HOME</a>
+</footer>
+</body>
