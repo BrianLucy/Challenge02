@@ -64,6 +64,8 @@ Responsive Image gallery Style rules
 
   .bio-1 img {
     display: block;
+    height: 350px;
+    width: 500px;
     margin-left:auto;
     margin-right: auto;
     border-style: double;
@@ -95,7 +97,7 @@ Responsive Image gallery Style rules
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 100px;
 }
 
 .image-gallery > li {
@@ -141,7 +143,7 @@ Responsive Image gallery Style rules
 
 /* hover */
 .image-gallery li:hover .overlay {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 .application-details {
