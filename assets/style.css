@@ -145,6 +145,10 @@
 .application-details {
   border-style: dashed;
 }
+
+.dev-apps-bottom {
+  text-align: center;
+}
 .contact-info {
   border-style: double;
   border-width: medium;
