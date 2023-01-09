@@ -29,3 +29,4 @@ Screenshot of deployed page
 ![image](https://user-images.githubusercontent.com/116689598/211227046-ea2a37ea-5c03-4772-900a-c832155f3194.png)
 
 link to deployed page
+https://brianlucy.github.io/my-portfolio/
